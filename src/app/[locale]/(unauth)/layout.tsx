@@ -1,3 +1,3 @@
-import { MainLayout } from '@/components/layout/main-layout';
+import { MainLayout } from '@/components/layouts/main-layout';
 
 export default MainLayout;

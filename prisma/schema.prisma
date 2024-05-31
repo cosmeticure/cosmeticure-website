@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("SUPABASE_POSTGRES_URL")
+}
+
+model Account {
+  access_token      String? @db.Text
+  expires_at        Int?
+  id                String  @id @default(uuid())
+  id_token          String?
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  scope             String?
+  session_state     String?
+  token_type        String?
+  type              String
+  userId            String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  expires      DateTime
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  accounts      Account[]
+  email         String?   @unique
+  emailVerified Boolean?
+  id            String    @id @default(uuid())
+  image         String?
+  firstName     String?
+  lastName      String?
+  role          USER_ROLE
+  sessions      Session[]
+}
+
+model VerificationToken {
+  expires    DateTime
+  identifier String
+  token      String
+
+  @@unique([identifier, token])
+}
+
+enum USER_ROLE {
+  Admin
+  Manager
+  User
+}

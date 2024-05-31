@@ -1,0 +1,51 @@
+export const googleServicesContent = [
+  {
+    id: 'item-1',
+    enabled: true,
+    title: 'Hair Transplant',
+    content: 'At Cosmeticure, our advanced Hair Transplant service helps you reclaim your confidence with natural-looking, lasting results. Tailored to your unique needs, our expert team ensures a seamless experience from consultation to recovery. Have questions or ready to transform your look? Book your appointment today!',
+    isApproved: false,
+  },
+  {
+    id: 'item-2',
+    enabled: true,
+    title: 'Liposuction',
+    content: "Transform your body with Cosmeticure's Liposuction service! Our expert team uses advanced techniques to sculpt and contour, removing stubborn fat for a more defined you. Ready to achieve your dream shape or have questions about the process? Contact us today and book your appointment!",
+    isApproved: false,
+  },
+  {
+    id: 'item-3',
+    enabled: true,
+    title: 'Rhinoplasty',
+    content: "At Cosmeticure, our Rhinoplasty service is designed to enhance your facial harmony and boost your confidence. With precision and care, our experts tailor each procedure to your unique features. Curious about the process or ready for a new look? Contact us today to schedule your consultation!",
+    isApproved: false,
+  },
+  {
+    id: 'item-4',
+    enabled: true,
+    title: 'PRP',
+    content: "Revitalize your skin and hair with Cosmeticure's PRP service! Using your body's natural healing powers, our experts deliver cutting-edge Platelet-Rich Plasma treatments for a youthful glow and fuller hair. Have questions or ready to see the results? Contact us today to book your appointment!",
+    isApproved: false,
+  },
+  {
+    id: 'item-5',
+    enabled: true,
+    title: 'Lasers',
+    content: "Experience flawless skin with Cosmeticure's advanced Laser services! From hair removal to skin resurfacing, our state-of-the-art treatments target imperfections for radiant results. Have questions or ready to transform your skin? Contact us today and book your appointment!",
+    isApproved: false,
+  },
+  {
+    id: 'item-6',
+    enabled: true,
+    title: 'Hydrafacial',
+    content: "Refresh and rejuvenate your skin with Cosmeticure's Hydrafacial service! Our non-invasive treatment deeply cleanses, exfoliates, and hydrates for an instantly radiant glow. Have questions about the process or ready to experience the transformation? Contact us today to book your appointment!",
+    isApproved: false,
+  },
+  {
+    id: 'item-7',
+    enabled: true,
+    title: 'Botox',
+    content: "Rediscover youthful, smooth skin with Cosmeticure's Botox service! Our expert team uses precise techniques to reduce wrinkles and fine lines, enhancing your natural beauty. Curious about how Botox can work for you or ready to refresh your look? Contact us today to book your appointment!",
+    isApproved: false,
+  },
+];

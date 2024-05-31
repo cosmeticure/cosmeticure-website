@@ -20,10 +20,10 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@appcorp/app-corp-designs@^0.1.94":
-  version "0.1.94"
-  resolved "https://registry.npmjs.org/@appcorp/app-corp-designs/-/app-corp-designs-0.1.94.tgz#42fee1b67576b34310806424bb1d1dc2fa5db9a2"
-  integrity sha512-vKIHLx866iPcyHxFX0+CNmCKUrW4NWfJwc3eKoel+AIQtfAelXVQydMK+9aHAGFIg2uvqEZvpYE52SA6I8zBNQ==
+"@appcorp/app-corp-designs@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@appcorp/app-corp-designs/-/app-corp-designs-0.2.0.tgz#42142c42923d4ee4411ac8254c73badeefc4fc3c"
+  integrity sha512-NMXZoD4Tk0vdvF1goCq11/MLIQ90oCwlGf5bTbTBD+Arq8edF+gRIO1eC8DrBRwZ21q5kf0b1zvFdfA7ansH7g==
 
 "@auth/core@0.31.0":
   version "0.31.0"
@@ -472,6 +472,11 @@
   integrity sha512-k/MEBstff4sttohyEpXxCmC3MqbUn9VvHGlZ8fauLzkbwXmVrEeyzS+4uhrvAk9DWU9/7otYWxyDox4nT/KVLQ==
   dependencies:
     tslib "^2.4.0"
+
+"@heroicons/react@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.npmjs.org/@heroicons/react/-/react-2.1.3.tgz#78a2a7f504a7370283d07eabcddc7fec04f503db"
+  integrity sha512-fEcPfo4oN345SoqdlCDdSa4ivjaKbk0jTd+oubcgNxnNgAfzysfwWfQUr+51wigiWHQQRiZNd1Ao0M5Y3M2EGg==
 
 "@hookform/resolvers@^3.4.2":
   version "3.4.2"
@@ -961,10 +966,15 @@
   dependencies:
     "@prisma/debug" "5.14.0"
 
-"@react-pakistan/util-functions@^1.22.14":
-  version "1.22.14"
-  resolved "https://registry.npmjs.org/@react-pakistan/util-functions/-/util-functions-1.22.14.tgz#56425639f5cfcff3600c0c3c3f0d96faec52ba4f"
-  integrity sha512-yA+gjpLbC7YR+scdA5pF2uWeA8TDQScBBzJHCSlGSz9TX7U8wy/XypYhxwDuUf41uxtI3bfRmW4QvAbSwIBIDQ==
+"@react-pakistan/react-icon-collection@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.npmjs.org/@react-pakistan/react-icon-collection/-/react-icon-collection-3.5.0.tgz#aa498e002ed791862e23d643d648f73586aa7e19"
+  integrity sha512-IICRFF2sYxg4LFWv8OofnalWOzE8YYouprhSDrawfKQJ1/rFKAMr0+keL8KcCYZcnX+lSASnaBF/bEqL6E0X6Q==
+
+"@react-pakistan/util-functions@^1.22.16":
+  version "1.22.16"
+  resolved "https://registry.npmjs.org/@react-pakistan/util-functions/-/util-functions-1.22.16.tgz#ebf768c76b4c36fc4a3e54ea40c3d52422604524"
+  integrity sha512-RRpYECD3oyVH13ZAsGicqPJB/32/M4igBgueA2Iu4WZcD6doGSvyorlmLg22QiHy+0NbPHuWRDrQtsgMik38NA==
 
 "@rushstack/eslint-patch@^1.3.3":
   version "1.10.2"

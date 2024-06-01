@@ -4,7 +4,7 @@ about: Create a report to help us improve
 
 ---
 
-Before opening a new issue, please take a moment to review our [**community guidelines**](https://github.com/app-corp/fullstack-app/blob/dev/CONTRIBUTING.md) to make the contribution process easy and effective for everyone involved.
+Before opening a new issue, please take a moment to review our [**community guidelines**](https://github.com/app-corp/cosmeticure-website/blob/dev/CONTRIBUTING.md) to make the contribution process easy and effective for everyone involved.
 
 ## Description
 A clear and concise description of what the bug is.
@@ -22,6 +22,6 @@ If applicable, add screenshots to help explain your problem.
 
 ## Versions
 
-- Fullstack-App:
+- Cosmeticure-Website:
 - Node/NPM:
 - Browser:

@@ -1,5 +1,4 @@
 import { ReactElement } from 'react';
-import Image from 'next/image';
 import { googleProductsContent, googleServicesContent } from '@/data/content';
 import { Typography } from '@/components/material-tailwind';
 

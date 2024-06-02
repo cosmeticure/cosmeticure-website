@@ -1,4 +1,5 @@
 import { ReactElement } from 'react';
+import Image from 'next/image';
 import { googleProductsContent, googleServicesContent } from '@/data/content';
 import { Typography } from '@/components/material-tailwind';
 
@@ -30,9 +31,18 @@ const Content = (): ReactElement => {
       <div className='grid grid-cols-3 gap-6'>
         {googleProductsContent
           .sort((a, b) => a.order - b.order)
-          .map(({ brand, content, id, price, title }) => {
+          .map(({ brand, content, id, image, price, title }) => {
             return (
               <div key={id} className='p-4 border border-white rounded-md'>
+                <div
+                  className='relative w-full h-[200px] rounded-md'
+                  style={{
+                    backgroundImage: `url(${image})`,
+                    backgroundPosition: 'center center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'contain',
+                  }}
+                />
                 <Typography key={id} variant='h4' className='pb-4'>
                   {title} - {brand}
                 </Typography>

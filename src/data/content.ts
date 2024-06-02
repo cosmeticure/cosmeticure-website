@@ -1,3 +1,5 @@
+export const baseBlogUrl = 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images';
+
 export const googleServicesContent = [
   {
     order: 1,
@@ -148,99 +150,122 @@ export const googleServicesContent = [
 export const googleProductsContent = [
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Discover unparalleled protection with Bionnex Dry Touch Sunscreen Preventiva SPF 50 Fluid 50ml! This advanced sunscreen provides broad-spectrum defense against harmful UVA and UVB rays, helping prevent sunburn, premature aging, and skin damage. Its innovative dry touch formula ensures a lightweight, non-greasy finish, making it perfect for daily use on all skin types, including sensitive skin.
+    Bionnex Dry Touch Sunscreen absorbs quickly, leaving your skin feeling fresh and matte without any white residue. Enriched with nourishing ingredients, it not only protects but also hydrates your skin, keeping it soft and supple throughout the day. Ideal for outdoor activities and everyday wear, this sunscreen is water-resistant, ensuring long-lasting protection even during physical activities or swimming.
+    Have questions about how Bionnex Dry Touch Sunscreen can fit into your skincare routine, or ready to elevate your sun protection? Contact us today to place your order.
+    `,
     id: 'item-1',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/dry-touch-sunscreen-preventiva-spf-50-fluid-50ml.png',
+    image: `${baseBlogUrl}/bionnex/dry-touch-sunscreen-preventiva-spf-50-fluid-50ml.png`,
     order: 1,
     price: 'PKR 2990',
     title: 'Dry Touch Sunscreen (Preventiva) spf 50 Fluid 50ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Transform your skincare routine with Bionnex Whitening Cream Whitexpert SPF 30 for Face 30ml! This innovative cream combines advanced whitening technology with SPF 30 protection, helping you achieve a brighter, more even complexion while safeguarding your skin from harmful UV rays. Perfect for daily use, it targets dark spots, pigmentation, and uneven skin tone, leaving your skin radiant and smooth.
+    Bionnex Whitexpert is enriched with natural extracts and antioxidants that nourish and rejuvenate your skin, promoting a youthful glow. Its lightweight, non-greasy formula absorbs quickly, making it ideal for all skin types. The added SPF 30 provides broad-spectrum protection, preventing further pigmentation and sun damage.
+    Curious about how Bionnex Whitexpert can enhance your skincare regimen or ready to see visible results? Contact us today for personalized advice and to place your order. Experience the dual benefits of whitening and protection with Bionnex!`,
     id: 'item-2',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/whitening-night-repair-serum.jpg',
+    image: `${baseBlogUrl}/bionnex/whitening-night-repair-serum.jpg`,
     order: 1,
     price: 'PKR 3490',
     title: 'Whitening Cream (Whitexpert) spf 30 for face 30ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Revitalize your eyes with Bionnex Eye Contour Cream Sensitiva 15ml! This specially formulated cream targets the delicate skin around your eyes, reducing the appearance of dark circles, puffiness, and fine lines. Infused with powerful natural ingredients, Bionnex Sensitiva nourishes and hydrates, restoring a youthful, refreshed look to your eye area.
+    Its gentle, hypoallergenic formula is perfect for sensitive skin, ensuring no irritation while delivering visible results. The lightweight, fast-absorbing cream is easy to apply and provides long-lasting moisture, helping to smooth and firm the eye contour. Regular use will leave your eyes looking brighter, more awake, and rejuvenated.
+    Curious about how Bionnex Eye Contour Cream can transform your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order. Trust Bionnex for effective and gentle care – because your eyes deserve to shine with confidence!`,
     id: 'item-3',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/eye-contour-cream-sensitiva-15ml.webp',
+    image: `${baseBlogUrl}/bionnex/eye-contour-cream-sensitiva-15ml.webp`,
     order: 1,
     price: 'PKR 3490',
     title: 'Eye Contour Cream (Sensitiva) 15ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Achieve clearer, healthier skin with Bionnex Acnederm Repairing Moisturizer Cream 30ml! This powerful yet gentle cream is specially designed to combat acne while providing essential hydration. Its advanced formula targets acne-causing bacteria, reduces inflammation, and prevents future breakouts, helping you attain a smooth, blemish-free complexion.
+    Bionnex Acnederm is enriched with natural extracts and soothing agents that calm irritated skin, reduce redness, and promote healing. The non-comedogenic, lightweight texture absorbs quickly, leaving your skin feeling fresh and balanced without clogging pores. Perfect for daily use, it works effectively under makeup or alone, ensuring continuous protection and hydration.
+    Curious about how Bionnex Acnederm can enhance your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order. Trust Bionnex for a solution that not only fights acne but also nurtures your skin!`,
     id: 'item-4',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/acnederm-repairing-moisturizer-cream-30ml.webp',
+    image: `${baseBlogUrl}/bionnex/acnederm-repairing-moisturizer-cream-30ml.webp`,
     order: 1,
     price: 'PKR 2990',
     title: 'Acnederm Repairing Moisturizer Cream 30ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Experience a deep, refreshing cleanse with Bionnex Cleansing and Foaming Gel Rensaderm 150ml! This expertly formulated gel gently removes impurities, excess oil, and makeup without stripping your skin of its natural moisture. Perfect for all skin types, including sensitive and acne-prone skin, it leaves your face feeling clean, balanced, and rejuvenated.
+    Bionnex Rensaderm is enriched with natural extracts and soothing agents that calm and nourish your skin, preventing irritation and dryness. Its rich, foaming lather penetrates deep into your pores, effectively purifying and revitalizing your complexion. With regular use, you'll notice visibly clearer, smoother, and more radiant skin.
+    Curious about how Bionnex Cleansing and Foaming Gel can transform your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order. Trust Bionnex for a gentle yet powerful cleansing experience.`,
     id: 'item-5',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/cleansing-and-foaming-gel-rensaderm-150ml.png',
+    image: `${baseBlogUrl}/bionnex/cleansing-and-foaming-gel-rensaderm-150ml.png`,
     order: 1,
     price: 'PKR 2990',
     title: 'Cleansing and foaming Gel (Rensaderm) 150ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Soothe and repair your feet with Bionnex Cracked Heel Cream Perfederm! This intensive treatment is specifically designed to heal and rejuvenate dry, cracked heels, providing instant relief and long-lasting hydration. Enriched with powerful natural ingredients and moisturizing agents, Bionnex Perfederm penetrates deep into the skin to promote healing and restore softness.
+    Its rich, non-greasy formula absorbs quickly, creating a protective barrier that locks in moisture and prevents further cracking. With regular use, you'll experience visibly smoother, healthier heels, making every step comfortable and confident. Ideal for daily use, this cream is perfect for anyone suffering from rough, dry, or cracked heels.
+    Curious about how Bionnex Cracked Heel Cream can transform your foot care routine or have questions about its benefits? Contact us today for personalized advice and to place your order. Trust Bionnex for effective and gentle care – because your feet deserve to be pampered!`,
     id: 'item-6',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/cracked-heel-cream-perfederm.webp',
+    image: `${baseBlogUrl}/bionnex/cracked-heel-cream-perfederm.webp`,
     order: 1,
     price: 'PKR 2290',
     title: 'Cracked Heel Cream (Perfederm)',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Transform your skin overnight with Bionnex Whitening Night Repair Serum! This powerful serum works while you sleep, targeting dark spots, uneven skin tone, and pigmentation to reveal a brighter, more radiant complexion. Infused with advanced whitening agents and nourishing natural extracts, Bionnex Night Repair Serum revitalizes and rejuvenates your skin, promoting a youthful glow.
+    Its lightweight, fast-absorbing formula penetrates deep into your skin, delivering intense hydration and essential nutrients without leaving a greasy residue. Wake up to smoother, clearer, and more luminous skin with regular use. Ideal for all skin types, this serum is perfect for those seeking to improve their skin tone and texture.
+    Curious about how Bionnex Whitening Night Repair Serum can enhance your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order. Trust Bionnex for a serum that delivers visible results!`,
     id: 'item-7',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/whitening-night-repair-serum.jpg',
+    image: `${baseBlogUrl}/bionnex/whitening-night-repair-serum.jpg`,
     order: 1,
     price: 'PKR 3990',
     title: 'Whitening night repair serum',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Reveal youthful, radiant hands with Bionnex Perfederm Anti-Aging Hand Cream 60ml! This luxurious hand cream is specially formulated to combat the signs of aging, providing intense hydration and nourishment to your hands. Enriched with powerful anti-aging ingredients and natural extracts, Bionnex Perfederm reduces the appearance of wrinkles, age spots, and dryness, leaving your hands soft, smooth, and rejuvenated.
+    Its non-greasy, fast-absorbing formula ensures deep penetration, creating a protective barrier against environmental damage and moisture loss. With regular use, you'll notice visibly firmer, more youthful-looking hands that defy the effects of time. Perfect for daily use, this hand cream is essential for maintaining beautiful, healthy hands at any age.
+    Curious about how Bionnex Perfederm Anti-Aging Hand Cream can enhance your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order.`,
     id: 'item-8',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/perfederm-antiaging-hand-cream-60ml.webp',
+    image: `${baseBlogUrl}/bionnex/perfederm-antiaging-hand-cream-60ml.webp`,
     order: 1,
     price: 'PKR 1290',
     title: 'Perfederm Antiaging Hand Cream 60ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Illuminate your skin with Bionnex Xtra Lightening Plus Vial 5ml (Mesotherapy)! This potent treatment targets hyperpigmentation, dark spots, and uneven skin tone, delivering a brighter, more radiant complexion. Designed for professional mesotherapy, Bionnex Xtra Lightening Plus uses advanced ingredients to penetrate deep into your skin, promoting cell renewal and reducing pigmentation.
+    Experience the transformative power of this highly concentrated formula, which combines effective whitening agents with nourishing extracts to rejuvenate and even out your skin. The lightweight solution absorbs quickly, providing intense hydration and a luminous glow without clogging pores. Ideal for all skin types, it is perfect for those seeking a professional-grade solution to achieve a flawless complexion.
+    Curious about how Bionnex Xtra Lightening Plus Vial can revolutionize your skincare routine? Contact us today for personalized advice and to place your order.`,
     id: 'item-9',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/xtra-lightening-plus-vail-5ml-mesotherapy.jpeg',
+    image: `${baseBlogUrl}/bionnex/xtra-lightening-plus-vail-5ml-mesotherapy.jpeg`,
     order: 1,
     price: 'PKR 3500',
     title: 'Xtra Lightening Plus Vail 5ml (Mesotherapy)',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Illuminate your complexion with Bionnex Xtra Lightening Plus Serum 30ml! This advanced serum is formulated to target hyperpigmentation, dark spots, and uneven skin tone, revealing a brighter, more radiant complexion. Infused with powerful lightening agents and natural extracts, Bionnex Xtra Lightening Plus Serum penetrates deep into the skin, promoting cell renewal and reducing pigmentation for a luminous, even-toned look.
+    The lightweight, fast-absorbing formula provides intense hydration while working to diminish the appearance of discoloration and age spots. Perfect for daily use, this serum is suitable for all skin types and leaves your skin feeling smooth, rejuvenated, and glowing. With regular use, you'll notice a visible improvement in your skin's clarity and brightness.
+    Curious about how Bionnex Xtra Lightening Plus Serum can transform your skincare routine or have questions about its benefits? Contact us today for personalized advice and to place your order.`,
     id: 'item-10',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/xtra-lightening-plus-serum-30ml.jpeg',
+    image: `${baseBlogUrl}/bionnex/xtra-lightening-plus-serum-30ml.jpeg`,
     order: 1,
     price: 'PKR 7500',
     title: 'Xtra Lightening Plus Serum 30ml',
   },
   {
     brand: 'Bionnex (Aesthetic Alliance)',
-    content: '',
+    content: `Experience the ultimate skin rejuvenation with Bionnex Simildiet Yellow Peel 5ml! This powerful peel is formulated to gently exfoliate and renew your skin, revealing a smoother, brighter complexion. Enriched with potent ingredients, including alpha hydroxy acids (AHAs) and vitamin C, Bionnex Simildiet Yellow Peel targets dullness, fine lines, and uneven texture for a revitalized, youthful glow.
+    Designed for professional use, this peel effectively removes dead skin cells, unclogs pores, and stimulates collagen production, resulting in firmer, more radiant skin. Its gentle yet effective formula ensures minimal downtime and discomfort, making it suitable for all skin types. Whether you're struggling with acne scars, sun damage, or signs of aging, Bionnex Simildiet Yellow Peel is your key to achieving smoother, healthier skin.
+    Curious about how Bionnex Simildiet Yellow Peel can transform your skincare routine or ask questions about its benefits? Contact us today to place your order.`,
     id: 'item-11',
-    image: 'https://cmfjgqlkdxpynhkvydov.supabase.co/storage/v1/object/public/cosmeticureblob/product-images/bionnex/simildiet-yellow-peel-5ml-box-of-3-vials.webp',
+    image: `${baseBlogUrl}/bionnex/simildiet-yellow-peel-5ml-box-of-3-vials.webp`,
     order: 1,
     price: 'PKR 12000',
     title: 'Simildiet Yellow Peel 5ml (Box of 3 Vials)',
@@ -249,6 +274,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-12',
+    image: `${baseBlogUrl}/nees/viviscal-hair-densifying-shampoo.jpg`,
     order: 2,
     price: 'PKR 4000',
     title: 'Viviscal Hair Densifying Shampoo',
@@ -257,6 +283,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-13',
+    image: `${baseBlogUrl}/nees/viviscal-hair-densifying-conditioner.jpg`,
     order: 2,
     price: 'PKR 4000',
     title: 'Viviscal Hair Densifying Conditioner',
@@ -265,6 +292,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-14',
+    image: `${baseBlogUrl}/nees/viviscal-fortifying-shampoo.png`,
     order: 2,
     price: 'PKR 4000',
     title: 'Viviscal Fortifying Shampoo',
@@ -273,6 +301,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-15',
+    image: `${baseBlogUrl}/nees/viviscal-elixir-serum.jpg`,
     order: 2,
     price: 'PKR 5000',
     title: 'Viviscal Elixir Serum',
@@ -281,6 +310,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-16',
+    image: `${baseBlogUrl}/nees/viviscal-hair-growth-program-men.jpeg`,
     order: 2,
     price: 'PKR 6000',
     title: 'Viviscal Hair Growth Program (Men)',
@@ -289,6 +319,7 @@ export const googleProductsContent = [
     brand: 'Nees',
     content: '',
     id: 'item-17',
+    image: `${baseBlogUrl}/nees/viviscal-hair-growth-program-women.webp`,
     order: 2,
     price: 'PKR 6000',
     title: 'Viviscal Hair Growth Program (Women)',

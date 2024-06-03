@@ -583,7 +583,7 @@ export const googleProductsContent = [
     title: 'Stocking',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-50',
     order: 8,
@@ -591,7 +591,7 @@ export const googleProductsContent = [
     title: 'Gynaecomastia Vest',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-51',
     order: 8,
@@ -599,7 +599,7 @@ export const googleProductsContent = [
     title: 'Body shaper',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-52',
     order: 8,
@@ -607,7 +607,7 @@ export const googleProductsContent = [
     title: 'Shorts',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-53',
     order: 8,
@@ -615,7 +615,7 @@ export const googleProductsContent = [
     title: 'Sports Bra',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-54',
     order: 8,
@@ -623,7 +623,7 @@ export const googleProductsContent = [
     title: 'Chin with Neck Belt',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-55',
     order: 8,
@@ -631,7 +631,7 @@ export const googleProductsContent = [
     title: 'Arm Vest Full Sleeve',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-56',
     order: 8,
@@ -639,7 +639,7 @@ export const googleProductsContent = [
     title: 'Connector Arm Sleeve',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-57',
     order: 8,
@@ -647,7 +647,7 @@ export const googleProductsContent = [
     title: 'Full Face Mask',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-58',
     order: 8,
@@ -655,7 +655,7 @@ export const googleProductsContent = [
     title: 'Compression Trouser',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-59',
     order: 8,
@@ -663,7 +663,7 @@ export const googleProductsContent = [
     title: 'Compression Gloves',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-60',
     order: 8,
@@ -671,7 +671,7 @@ export const googleProductsContent = [
     title: 'Compression Socks',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-61',
     order: 8,
@@ -679,7 +679,7 @@ export const googleProductsContent = [
     title: 'Belly Binder V Shape',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-62',
     order: 8,
@@ -687,7 +687,7 @@ export const googleProductsContent = [
     title: 'Belly Binder Knee High',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-63',
     order: 8,
@@ -695,7 +695,7 @@ export const googleProductsContent = [
     title: 'Chest Belt',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-64',
     order: 8,
@@ -703,7 +703,7 @@ export const googleProductsContent = [
     title: 'Stocking',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-65',
     order: 8,
@@ -711,7 +711,7 @@ export const googleProductsContent = [
     title: 'Refscar',
   },
   {
-    brand: 'Reflections - Robina',
+    brand: 'Reflections',
     content: '',
     id: 'item-66',
     order: 8,

@@ -52,7 +52,7 @@ const Content = (): ReactElement => {
                   {title} - {brand}
                 </Typography>
                 <Typography variant='paragraph'>
-                  {content.slice(0, 1000)} - {price}
+                  {content.slice(0, 1000)}
                 </Typography>
               </div>
             );

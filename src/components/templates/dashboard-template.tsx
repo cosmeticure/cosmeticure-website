@@ -24,7 +24,7 @@ export const DashboardTemplate: FC<Props> = ({
   const singleLevelMenuArray = useMemo(() => ([...dashboardData.sideBar.singleLevelMenu]), []);
   singleLevelMenuArray[0].handleOnClick = () => push('/en/app/dashboard');
   singleLevelMenuArray[1].handleOnClick = () => push('/en/app/content');
-  singleLevelMenuArray[2].handleOnClick = () => push('/en/app/ads');
+  singleLevelMenuArray[3].handleOnClick = () => push('/en/app/ads');
 
   const pageHeading = toHeading(pathName.split('/')[3]);
 
